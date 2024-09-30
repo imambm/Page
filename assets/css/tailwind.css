@@ -771,6 +771,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-28{
+  margin-bottom: 7rem;
+}
+
 .mb-3{
   margin-bottom: 0.75rem;
 }
@@ -975,6 +979,10 @@ video {
   width: 100%;
 }
 
+.max-w-7xl{
+  max-width: 80rem;
+}
+
 .max-w-\[120px\]{
   max-width: 120px;
 }
@@ -1003,16 +1011,8 @@ video {
   max-width: 530px;
 }
 
-.max-w-\[600px\]{
-  max-width: 600px;
-}
-
 .max-w-\[620px\]{
   max-width: 620px;
-}
-
-.max-w-\[780px\]{
-  max-width: 780px;
 }
 
 .max-w-\[80px\]{
@@ -1025,6 +1025,10 @@ video {
 
 .max-w-\[850px\]{
   max-width: 850px;
+}
+
+.max-w-\[940px\]{
+  max-width: 940px;
 }
 
 .max-w-full{
@@ -1495,6 +1499,10 @@ video {
   padding-top: 120px;
 }
 
+.pt-\[80px\]{
+  padding-top: 80px;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1599,6 +1607,10 @@ video {
   line-height: 1.375;
 }
 
+.leading-tight{
+  line-height: 1.25;
+}
+
 .tracking-wide{
   letter-spacing: 0.025em;
 }
@@ -1628,9 +1640,19 @@ video {
   color: rgb(228 228 228 / var(--tw-text-opacity));
 }
 
+.text-\[\#f3f3f3\]{
+  --tw-text-opacity: 1;
+  color: rgb(243 243 243 / var(--tw-text-opacity));
+}
+
 .text-\[\#f3f4fe\]{
   --tw-text-opacity: 1;
   color: rgb(243 244 254 / var(--tw-text-opacity));
+}
+
+.text-\[\#f8f8f8\]{
+  --tw-text-opacity: 1;
+  color: rgb(248 248 248 / var(--tw-text-opacity));
 }
 
 .text-\[\#fbb040\]{
@@ -2099,6 +2121,10 @@ body {
   .sm\:leading-snug{
     line-height: 1.375;
   }
+
+  .sm\:leading-tight{
+    line-height: 1.25;
+  }
 }
 
 @media (min-width: 720px){
@@ -2172,6 +2198,10 @@ body {
     padding-top: 130px;
   }
 
+  .md\:pt-\[90px\]{
+    padding-top: 90px;
+  }
+
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2184,6 +2214,10 @@ body {
 
   .md\:text-\[26px\]{
     font-size: 26px;
+  }
+
+  .md\:text-\[35px\]{
+    font-size: 35px;
   }
 
   .md\:text-\[40px\]{
@@ -2210,6 +2244,10 @@ body {
   .md\:leading-snug{
     line-height: 1.375;
   }
+
+  .md\:leading-tight{
+    line-height: 1.25;
+  }
 }
 
 @media (min-width: 960px){
@@ -2235,6 +2273,10 @@ body {
 
   .lg\:mb-11{
     margin-bottom: 2.75rem;
+  }
+
+  .lg\:mb-16{
+    margin-bottom: 4rem;
   }
 
   .lg\:mb-20{
@@ -2451,6 +2493,10 @@ body {
 
   .lg\:pt-\[160px\]{
     padding-top: 160px;
+  }
+
+  .lg\:pt-\[80px\]{
+    padding-top: 80px;
   }
 
   .lg\:text-\[40px\]{
