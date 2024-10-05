@@ -1,3 +1,10 @@
 {
+  "editor.fontFamily": "Source Code Pro",
+  "editor.fontSize": 12,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.ignoreLimitWarning": true,
   "css.validate": false
 }
