@@ -6,5 +6,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.ignoreLimitWarning": true,
-  "css.validate": false
+  "css.validate": false,
+  "editor.wordWrapColumn": 1000
 }
