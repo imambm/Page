@@ -111,7 +111,7 @@
 
     <!-- ====== Hero Section Start -->
     <div id="home" class="relative pt-[80px] md:pt-[90px] lg:pt-[120px] bg-primary">
-        <div class="container">
+        <div>
             <div class="flex flex-wrap items-center -mx-4">
                 <div class="w-full px-4">
                     <div class="mx-auto text-center hero-content max-w-7xl wow fadeInUp" data-wow-delay=".2s">
@@ -124,29 +124,18 @@
                             Kenapa Pilih SIMRS Reksamedic?
                         </p>
                         <div class="max-w-md mx-auto">
-                            <p id="paragraph" class="overflow-hidden max-h-20 transition-all duration-300 text-base sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed mx-auto mb-5 text-[#e4e4e4] max-w-[940px]">
-                                Manajemen rumah sakit yang efisien dan terintegrasi adalah
-                                kunci untuk memberikan pelayanan kesehatan terbaik kepada
-                                pasien.
+                            <p class="transition-all duration-300 text-base sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed mx-auto mb-5 text-[#e4e4e4] max-w-[940px]">
+                                Manajemen rumah sakit yang efisien dan terintegrasi adalah kunci untuk memberikan pelayanan kesehatan terbaik kepada pasien.
+                                <span id="more-text" class="hidden text-base sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed mx-auto mb-5 text-[#e4e4e4] max-w-[940px]"><strong class="text-[#f3f3f3]">SIMRS Reksamedic</strong>
+                                    hadir sebagai solusi Sistem Informasi Manajemen Rumah Sakit (SIMRS) yang modern, lengkap, dan mudah digunakan, dirancang khusus untuk membantu rumah sakit meningkatkan pelayanan, memaksimalkan efisiensi, dan mengelola operasional dengan lebih baik.
+                                </span>
                             </p>
-                            <button id="readMoreBtn" class="mt-4 text-blue-500 hover:underline">
-                                Read More
-                            </button>
+                            <button id="toggle-btn" class="mt-4 mb-10 text-gray-200 hover:font-bold hover:text-white focus:outline-none">Read More</button>
+                            <button id="hide-btn" class="hidden mt-4 mb-10 text-gray-200 hover:font-bold hover:text-white focus:outline-none">Hide</button>
                         </div>
-                        <span id="dots">...</span>
-                        <span id="more" style="display: none"><strong class="text-[#f3f3f3]">SIMRS Reksamedic</strong>
-                            hadir sebagai solusi Sistem Informasi Manajemen Rumah Sakit
-                            (SIMRS) yang modern, lengkap, dan mudah digunakan, dirancang
-                            khusus untuk membantu rumah sakit meningkatkan pelayanan,
-                            memaksimalkan efisiensi, dan mengelola operasional dengan lebih
-                            baik.
-                        </span>
-
-                        <!-- <p class="text-base sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed mx-auto mb-28 text-[#e4e4e4] max-w-[940px]">
-              Dengan SIMRS Reksamedic, Anda akan mendapatkan sistem yang tidak hanya mempermudah pengelolaan, tetapi juga meningkatkan performa keseluruhan rumah sakit. Mulai dari pendaftaran pasien, manajemen rawat inap, hingga laporan keuangan – semua bisa dilakukan hanya dalam satu platform. Tertarik? Simak lebih lanjut untuk mengetahui keunggulan dari SIMRS Reksamedic!
-            </p> -->
-
-                        <!-- <ul class="flex flex-wrap items-center justify-center mb-10">
+                    </div>
+                </div>
+                <!-- <ul class="flex flex-wrap items-center justify-center mb-10">
               <li>
                 <a href="https://links.tailgrids.com/play-download" class="inline-flex items-center justify-center px-6 py-4 text-base font-medium text-center transition duration-300 ease-in-out bg-white rounded-lg sm:px-10 text-dark hover:text-primary hover:shadow-lg">
                   Download Now
@@ -163,8 +152,8 @@
                 </a>
               </li>
             </ul> -->
-                        <!-- <div class="text-center wow fadeInUp" data-wow-delay=".3s">
-              <img src="assets/images/hero/brand.svg" alt="image" class="
+                <!-- <div class="text-center wow fadeInUp" data-wow-delay=".3s">
+                        <img src="assets/images/hero/brand.svg" alt="image" class="
                     max-w-[250px]
                     w-full
                     mx-auto
@@ -175,8 +164,6 @@
                     ease-in-out
                   " />
             </div> -->
-                    </div>
-                </div>
 
                 <div class="w-full px-4">
                     <div class="mx-auto max-w-[845px] relative z-10 wow fadeInUp" data-wow-delay=".25s">

@@ -1,11 +1,12 @@
 {
   "editor.fontFamily": "Source Code Pro",
+  "editor.wordWrap": "on",
   "editor.fontSize": 12,
+  "editor.wordWrapColumn": 1000,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.ignoreLimitWarning": true,
-  "css.validate": false,
-  "editor.wordWrapColumn": 1000
+  "css.validate": false
 }
