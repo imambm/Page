@@ -1,4 +1,5 @@
-Cara Menggunakan :
+Cara Menggunakan Ketika Baru Mengclone dari github :
+
 - jalankan npm install di cmd
 - konfigurasi tailwind css
 - install tailwind
@@ -8,7 +9,7 @@ Cara Menggunakan :
   module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+  extend: {},
   },
   plugins: [],
   }
