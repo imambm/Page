@@ -2280,10 +2280,6 @@ body {
     line-height: 1.75rem;
   }
 
-  .md\:text-\[15px\]{
-    font-size: 15px;
-  }
-
   .md\:leading-relaxed{
     line-height: 1.625;
   }
