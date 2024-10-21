@@ -114,7 +114,7 @@
   document.querySelector(".back-to-top").onclick = () => {
     scrollTo(document.documentElement);
   };
-});
+})();
 
 // read more function
 // const moreTextEl = document.getElementById("more-text");
