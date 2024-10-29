@@ -1765,7 +1765,7 @@ video {
 }
 
 .shadow-testimonial {
-  --tw-shadow: 0px 60px 120px -20px #EBEFFD;
+  --tw-shadow: 0px 30px 120px -20px #a8a9af;
   --tw-shadow-colored: 0px 60px 120px -20px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
