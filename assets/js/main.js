@@ -15,9 +15,9 @@
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "assets/images/logo/logo.svg";
+      logo.src = "assets/images/logo/logo_simrs_reksamedic.svg";
     } else {
-      logo.src = "assets/images/logo/logo-white.svg";
+      logo.src = "assets/images/logo/logo_simrs_reksamedic.svg";
     }
 
     // show or hide the back-to-top button
